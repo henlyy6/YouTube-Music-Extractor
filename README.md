@@ -1,4 +1,4 @@
-# 🎵 TrackHarvester (or your chosen title!)
+# 🎵 YouTube-Music-Extractor
 
 A lightweight, loopable Python script that turns simple text searches into clean, beautifully named MP3 music files. No messy URLs required—just type the song name and let the script do the rest.
 
