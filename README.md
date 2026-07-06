@@ -15,3 +15,34 @@ A lightweight, loopable Python script that turns simple text searches into clean
 Make sure you have Python installed, then install the required `yt-dlp` package:
 ```bash
 pip install yt-dlp
+
+2. FFmpeg Installation (Required for MP3 Conversion)
+This script requires FFmpeg to extract and convert the audio into high-quality MP3s.
+
+🪟 Windows:
+Download the FFmpeg essentials build from Gyan.dev.
+
+Extract the folder and find ffmpeg.exe inside the bin folder.
+
+Drop ffmpeg.exe directly into the same folder as this script. The script is pre-programmed to automatically look for it there!
+
+🍏 Mac (Using Homebrew):
+Open your terminal and run:
+
+Bash
+brew install ffmpeg
+🐧 Linux:
+Open your terminal and run:
+
+Bash
+sudo apt install ffmpeg
+🚀 How to Use
+Run the script:
+
+Bash
+python main.py
+Enter the folder path where you want to save your music (or hit Enter to save it right next to the script).
+
+Type any song name (e.g., Blinding Lights).
+
+Type exit whenever you are done!
